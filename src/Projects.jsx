@@ -6,38 +6,45 @@ const Projects = () => {
     { 
       id: 1, 
       title: "feathered", 
-      description: "language learning app supporting up to 8 langauges, utlizing gpt 4o mini api", 
+      description: "language learning app supporting up to 8 langauges, utilizing gpt 4o mini api", 
       link: "https://feathered.boo/", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/feathered.png" 
     },
     { 
       id: 2, 
       title: "graphify", 
       description: "a visual spotify playlist generator based on a graph system, uses spotify api", 
       link: "https://graphify.stream/", 
-      image: "/path/to/rigging-icon.png" 
-    },
-    { 
-      id: 3, 
-      title: "patatap clone", 
-      description: "The bone hierarchy determines how objects move.", 
-      link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/graphify.png" 
     },
     { 
       id: 4, 
-      title: "rubik's cube map", 
-      description: "The bone hierarchy determines how objects move.", 
-      link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      title: "ai + vis dataset site", 
+      description: "website made to display data vis testing from llm output, made in React", 
+      link: "https://datavis-ai-site.netlify.app/", 
+      image: "/datavis-ai.png" 
     },
     { 
       id: 5, 
-      title: "audio visualizer", 
-      description: "The bone hierarchy determines how objects move.", 
-      link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      title: "patatap clone", 
+      description: "clone of webapp patatap made for prof. owen mundy", 
+      link: "https://yodering.github.io/patatap-clone/", 
+      image: "/patatap.png" 
     },
+    { 
+      id: 6, 
+      title: "audio visualizer", 
+      description: "audio visualizer made with p5.js", 
+      link: "https://yodering.github.io/audio-visualizer/", 
+      image: "/audio.png" 
+    },
+    { 
+      id: 7, 
+      title: "rubik's cube map", 
+      description: "map displaying rubik's cube competitions, made for datavis final", 
+      link: "https://yodering.github.io/csc362-final/", 
+      image: "/rubik.png" 
+    }
     // Add more projects...
   ];
 

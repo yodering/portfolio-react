@@ -8,100 +8,106 @@ const Videos = () => {
       title: "mens bb hype 23", 
       description: "video for davidson college", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/mensbb2023.png" 
     },
     { 
       id: 2, 
       title: "mens bb hype 22", 
       description: "video for davidson college", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/mensbb2022.png" 
     },
     { 
       id: 3, 
       title: "womens bb hype", 
       description: "video for davidson college", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/womensbbhype.png" 
     },
     { 
       id: 4, 
       title: "des watson intro", 
       description: "video for davidson college", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/deswatson.png" 
     },
     { 
       id: 5, 
       title: "all sports awards", 
       description: "video for davidson college", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/allsports.png" 
     },
     { 
       id: 6, 
-      title: "wolf ###", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "volleyball hype", 
+      description: "video for davidson college", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/volleyball1.png" 
     },
     { 
       id: 7, 
-      title: "graphify showcase", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "volleyball hype 2", 
+      description: "video for davidson college", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/volleyball2.png" 
     },
     { 
       id: 8, 
-      title: "unsolved (movie)", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "graphify showcase", 
+      description: "graphify project showcase", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/graphifyprev.png" 
     },
     { 
       id: 9, 
-      title: "wolf ###", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "unsolved (movie)", 
+      description: "movie for filmmaking", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/unsolved.png" 
     },
     { 
       id: 10, 
-      title: "grass n nature", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "wolf ###", 
+      description: "csgo edit", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/yhapojj.png" 
     },
     { 
       id: 11, 
-      title: "mario car", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "grass n nature", 
+      description: "irl edit", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/grassnature.png" 
     },
     { 
       id: 12, 
-      title: "mileage", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "mario car", 
+      description: "mario kart edit", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/mariokart.png" 
     },
     { 
       id: 13, 
-      title: "whats the hold up", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "mileage", 
+      description: "fortnite edit", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/mileage.png" 
     },
     { 
       id: 14, 
-      title: "foreign", 
-      description: "The bone hierarchy determines how objects move.", 
+      title: "whats the hold up", 
+      description: "csgo edit", 
       link: "#", 
-      image: "/path/to/rigging-icon.png" 
+      image: "/holdup.png" 
+    },
+    { 
+      id: 15, 
+      title: "foreign", 
+      description: "fortnite edit", 
+      link: "#", 
+      image: "/foreign.png" 
     }
-    // Add more projects...
   ];
 
   return (
