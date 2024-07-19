@@ -104,7 +104,7 @@ const Videos = () => {
     { 
       id: 15, 
       title: "foreign", 
-      description: "fortnite edit", 
+      description: "csgo edit", 
       link: "https://www.youtube.com/watch?v=tsIj9WZlqfs", 
       image: "/foreign.png" 
     }
