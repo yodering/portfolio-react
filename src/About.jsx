@@ -18,7 +18,7 @@ const About = () => {
       <div className="mt-6">
         <h3 className="text-xl font-semibold text-gray-800 mb-2">skills</h3>
         <div className="flex flex-wrap gap-2">
-          {['JavaScript', 'React', 'Node.js', 'Python', 'Git', 'HTML','CSS', 'After Effects', 'Premiere Pro', 'Three.js'].map((skill, index) => (
+          {['JavaScript', 'React', 'Node.js', 'Three.js', 'Python', 'Git', 'HTML','CSS', 'After Effects', 'Premiere Pro'].map((skill, index) => (
             <span key={index} className="bg-blue-100 text-blue-800 px-2 py-1 rounded">
               {skill}
             </span>
