@@ -81,6 +81,24 @@ const PageContent = () => {
   );
 };
 
+const NavLink = ({ to, children }) => {
+  const location = useLocation();
+  const isActive = location.pathname === to;
+  
+  return (
+    <Link 
+      to={to} 
+      className={`transition-colors duration-200 ${
+        isActive 
+          ? "text-black-600 font-semibold" 
+          : "text-gray-600 hover:text-gray-800"
+      }`}
+    >
+      {children}
+    </Link>
+  );
+};
+
 const App = () => {
   return (
     <Router>
@@ -100,10 +118,10 @@ const App = () => {
 
             <nav className="bg-gray-100 bg-opacity-70 backdrop-blur-sm py-3 rounded-t-3xl mx-auto shadow-lg" style={{ width: '300px' }}>
               <div className="flex justify-between px-4">
-                <Link to="/" className="text-gray-600 hover:text-gray-800 transition-colors duration-200">home</Link>
-                <Link to="/projects" className="text-gray-600 hover:text-gray-800 transition-colors duration-200">projects</Link>
-                <Link to="/videos" className="text-gray-600 hover:text-gray-800 transition-colors duration-200">videos</Link>
-                <Link to="/about" className="text-gray-600 hover:text-gray-800 transition-colors duration-200">about</Link>
+                <NavLink to="/">home</NavLink>
+                <NavLink to="/projects">projects</NavLink>
+                <NavLink to="/videos">videos</NavLink>
+                <NavLink to="/about">about</NavLink>
               </div>
             </nav>
           </footer>
