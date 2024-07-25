@@ -6,7 +6,7 @@ const Projects = () => {
     { 
       id: 1, 
       title: "feathered", 
-      description: "language learning app supporting up to 8 langauges, utilizing gpt 4o mini api", 
+      description: "language learning app supporting up to 8 languages, utilizing gpt 4o mini api, built in React", 
       link: "https://feathered.boo/", 
       image: "/feathered.png" 
     },
@@ -50,7 +50,7 @@ const Projects = () => {
 
   return (
     <div className="max-h-[calc(100vh-200px)] overflow-y-auto">
-      <div className="grid grid-cols-3 gap-8 p-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
         {projects.map((project) => (
           <Card key={project.id} {...project} />
         ))}
